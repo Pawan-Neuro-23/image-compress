@@ -8,7 +8,8 @@
     "bun:start": "bun run --watch bun-index.ts",
     "elysia:start": "bun run --watch elysia-index.ts",
     "hono:start": "bun run --watch hono-index.ts",
-    "tsc":"tsc"
+    "tsc": "tsc",
+    "start":"node dist/express-index.js"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +32,7 @@
     "hono": "^4.4.12",
     "mongodb": "^6.8.0",
     "multer": "^1.4.5-lts.1",
-    "sharp": "^0.33.4"
+    "sharp": "^0.33.4",
+    "tsc": "^2.0.4"
   }
 }
